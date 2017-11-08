@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<title> GeoStopWatch </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel = "stylesheet" href = "geostopwatch.css" type="text/css"/>
+	
+</head>
+<body>
+	<nav class="controls">
+			<a href="#" class="button-start" aria-pressed="true" onClick="stopwatch.start();">Start</a>
+			<a href="#" class="button-stop" aria-pressed="true" onClick="stopwatch.stop();">Stop</a>
+			<a href="#" class="button-reset" aria-pressed="true" onClick="stopwatch.reset();">Reset</a>
+			<a href="#" class="button-clear" aria-pressed="true" onClick="stopwatch.clear();">Clear Table</a>
+	</nav>
+	<div class="stopwatch"></div>
+	<table id="myTable" class = "table">
+      <thead class="thead-dark">
+        <th scope="col">Watch-State</th>
+        <th scope="col">Start Time</th>
+        <th scope="col">Latitude</th>
+        <th scope="col">Longitude</th>
+        <th scope="col">Time-Elapsed</th>
+      </thead>
+      <tbody>
+      	
+      </tbody>
+  </table>
+	<!--<ul class="results"></ul>-->
+	<script type="text/javascript" src="stopwatchscript.js"></script>
+</body>
+
+</html>
