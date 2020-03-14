@@ -4,4 +4,4 @@ GeoStopWatch App
 
      Use the following URL to access the website
      
-     https://ranjith3037.github.io/simpleStopWatch/.
+     https://ranjith-gampa.github.io/simpleStopWatch/.
